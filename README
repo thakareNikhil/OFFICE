@@ -1,0 +1,15 @@
+👨‍💼 Employee Management System
+📌 Project Overview
+The Employee Management System is a simple Python-based project designed to manage employee information efficiently. It allows users to add, view, update, and delete employee records.
+
+🚀 Features
+➕ Add new employee details
+📋 View all employee records
+✏️ Update employee information
+🗑️ Delete employee records
+🔍 Search employee details
+💾 Store and manage employee data
+🛠️ Technologies Used
+Programming Language: Python
+Database: [File Handling]
+IDE: VS Code / PyCharm
