@@ -2,11 +2,12 @@ from pickle import load
 def View():
     with open('EMP','rb') as f:
         b=1
+        print('\tID \t\tName \tSalary')
         while True:
             try:
                 a=load(f)
-                for k,v in a.items():
-                    print(f'{k} = {v}',end=' ')
+                for v in a.values():
+                    print(f'\t{v}',end='\t')
                 print()
             except EOFError:
                 print(''.center(50,'-'))
